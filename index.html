@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuela</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,600&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet"> 
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="css/information.css">
+    <script defer src="JavaScript/java.js"></script>
+</head>
+<body>
+    <header class="topheader">
+        <nav class="topnav">
+            <a href="#" class="logo">
+                <img 
+                  height="70" 
+                  width="70" 
+                  src="imagenes/logo.png" 
+                  alt="Tecnica 36"
+                />
+                <div>
+                    Tecnica 36 <br />
+                </div>
+            </a>
+            <button class="open-menu" aria-label="Abrir Menu">
+                <img src="imagenes/menulogo.svg" alt="abrir menu">
+            </button>
+            <ul class="menu">
+                <button class="close-menu" aria-label="Cerrar Menu">
+                    <img src="imagenes/cerrarlogo.svg" alt="cerrar menu">
+                </button>
+                <li><a href="#Ini" class="selected">Inicio</a></li>
+                <li><a href="#Information">Informacion</a></li>
+                <li><a href="Noved">Novedades</a></li>
+                <li><a href="Contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="inicio">
+            <div class="inicio-info">
+                <h1 class="tituloprin"> Bienvenido a la Escuela Tecnica 36</h1>
+                <p class="iniciotext">
+                    Te damos la bienvenida al campus de nuestra escuela, nosotros nos encargamos de preparar y formar a nuestros alumnos en las áreas de Computación y Construcciones. Nuestro ciclo consta de 1 a 6 año, contamos con equipamiento tecnologico como Impresoras 3D y drones. (Editar)
+                </p>
+            </div>
+            <span class="inicio-img-section">
+                <img
+                   class="imagen-esc"
+                   src="imagenes/polo.jpg"
+                   alt="imgescuela"
+                   id="imgEt"
+                />
+            </span>
+        </section>
+    </div>
+    <section class="information">
+        <img src="imagenes/wave.svg" alt="division" class="wave">
+        <div class="information-body">
+            <h2 class="information-title">Informacion</h2>
+            <p class="infor-esc">
+                Nuestra escuela cuenta con una infraestructura moderna, en donde cada espacio puede ser utilizado para llevar a cabo diferentes actividades, a continuacion les daremos un pequeño recorrido por la escuela.
+            </p>
+            <div class="information-grid">
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="information-text">
+                    <div class="inform">
+                        <div class="infor-arq">Buffet</div>
+                        <div class="arqdescrip">Este es el comedor escolar.</div>
+                        <img class="img-buffet" src="imagenes/Buffet.png" alt="comedor"/>
+                    </div>
+                </div>
+                <div class="information-text">
+                    <div class="inform inform_left">
+                        <div class="infor-arq">Laboratorio</div>
+                        <div class="arqdescrip">Este es el Laboratorio donde los alumnos realizan practicas en las computadoras.</div>
+                        <img class="img-buffet" src="imagenes/Laboratorio.png" alt="laboratorio"/>
+                    </div>
+                </div>
+                <div class="line"></div> <!--Espacio linea imagen-->
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="information-text">
+                    <div class="inform">
+                        <div class="infor-arq">Biblioteca</div>
+                        <div class="arqdescrip">Este es la Biblioteca en donde los alumnos pueden tener un espacio para la lectura.</div>
+                        <img class="img-buffet" src="imagenes/Biblioteca.png" alt="biblioteca"/>
+                    </div>
+                </div>
+                <div class="information-text">
+                    <div class="inform inform_left">
+                        <div class="infor-arq">Zoom</div>
+                        <div class="arqdescrip">Este es el zoom donde se realizan los actos, las charlas o eventos importantes en la escuela.</div>
+                        <img class="img-buffet" src="imagenes/Zoom.png" alt="zum"/>
+                    </div>
+                </div>
+
+            </div>
+         
+        </div>
+        <img src="imagenes/wave.svg" alt="division" class="wave wave_bottom">
+    </section>
+    <!--<div class="horizontal-padding vertical-padding">
+    </div>-->
+</body>
+</html>

@@ -1,0 +1,44 @@
+:root {
+     --theme-color: rgb(255, 255, 255);  /* Variables en CSS */
+     --primary-color: rgb(49, 136, 235);
+     --secundary-color: rgb(71, 195, 226);
+     --text-color-inverse: white;
+     --text-color: black;
+     --navbar-shadow-color: #e5e5e5;
+     --menu-mobileback-color: #6c6e75;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: var(--theme-color); /*Ventajas si queremos cambiar algo lo hacemos directamente en el root*/
+    color: var(--text-color);
+    padding-top: 100px;
+}
+
+a {
+   text-decoration: none;
+   color: var(--text-color); /*Se lo ponemos aca ya que los enlaces tienen otro color predefinido*/
+}
+
+.horizontal-padding {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.vertical-padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media (min-width: 950px) {
+    .horizontal-padding {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .vertical-padding {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+}

@@ -1,0 +1,153 @@
+.topheader {
+    box-shadow: 0 4px 5px var(--navbar-shadow-color); /*Sombreado*/
+    position: fixed; /*Que se quede siempre en la vista del usuario*/
+    background-color: var(--theme-color);
+    left: 0;
+    top: 0;
+    width: 100%;
+
+}
+
+.topnav {
+    display: flex; /*Filas una al lado de otro*/
+    justify-content: space-between; /* Separar los elementos de punta a punta*/
+    padding: 10px;
+    max-width: 980px; /*Ancho Maximo*/
+    margin: 0 auto;/*Centrado con respecto al header*/
+}
+
+/*Logo*/
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 18px; /*tamaño fuente*/
+    font-weight: 500; /*Resalta mas el texto*/
+    color: var(--primary-color);
+}
+
+.logo img{
+    border-radius: 50%;  /*Hace que la imagen tome un radio circular*/
+}
+
+/*Menu*/
+
+.menu {
+    display: flex;
+    list-style: none; /*Quitar puntos que el UL trae por defecto*/
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu li{
+    padding: 0 10px;
+     
+}
+.menu a{
+    color: var(--text-color);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 50px;  /*Centrar elementos de forma horizontal*/
+    text-transform: uppercase; /*Texto en Mayuscula*/
+    position: relative;
+}
+
+.menu a::after{
+    content: ""; /*Pseudo elementos deben tener un contenido para que se visualizen*/
+    background-color: var(--secundary-color);
+    position: absolute;
+    left: 0;/*Hacen que se quede debajo del elemento*/
+    top: calc(100% + 4px); /*En css no hay calculos usamos calc*/
+    width: 100%;
+    height: 4px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.menu a:hover{
+    color: var(--primary-color);
+}
+
+.menu a.selected::after,
+.menu a:hover::after{ 
+    opacity: 0.8;
+}
+
+.open-menu,
+.close-menu {
+    display: none; /*Que no se vea en dispositivos de escritorio*/
+}
+
+/*Adaptar Para dispositivos moviles*/
+@media (max-width: 950px){  /*Que se aplique el CSS desde 0 a 950px*/
+
+    /*Menu*/
+    .menu {
+        flex-direction: column; /*Ahora queremos los elementos en columnas y no filas*/
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        align-items: center;
+        background-color: var(--menu-mobileback-color);
+        color: var(--text-color-inverse);
+        height: 100%;
+        overflow-y: auto; /*Acceder a opciones aunque el dispositivo sea muy pequeño*/
+        opacity: 0; /*Los elementos no se eliminan sino que son transparentes*/
+        pointer-events: none; /*Ahora si es como no existieran*/
+        transition: opacity 0.3s;
+    }
+
+    .menu li{
+        padding: 0;
+     
+    }
+    .menu a{
+        color: var(--text-color-inverse);
+        line-height: 60px;
+    }
+
+    .open-menu,
+    .close-menu{
+        display: block;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+
+    .close-menu{
+        align-self: flex-end;
+        padding: 20px 15px;
+    }
+    
+    .menu_opened{
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    .open-menu:focus:not(:focus-visible),
+    .close-menu:focus:not(:focus-visible){
+        outline: none;
+    }
+
+    .menu a::after{
+        content: none;
+    }
+
+    .menu a:hover,
+    .menu a.selected{
+        color: var(--secundary-color);
+    }
+
+    .imagen-esc{
+        opacity: 1;
+    }
+    
+    .hidden{
+        display: none;
+    }
+}
+
+    
+
+
