@@ -5,7 +5,7 @@
     left: 0;
     top: 0;
     width: 100%;
-
+    z-index: 100000;
 }
 
 .topnav {
@@ -14,6 +14,7 @@
     padding: 10px;
     max-width: 980px; /*Ancho Maximo*/
     margin: 0 auto;/*Centrado con respecto al header*/
+    
 }
 
 /*Logo*/
