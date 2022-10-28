@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="css/information.css">
     <link rel="stylesheet" href="css/carrousel.css">
     <script defer src="JavaScript/java.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script defer src="functions.js"></script>
 </head>
 <body>
     <header class="topheader">
@@ -116,33 +118,46 @@
         </div>
         <img src="imagenes/wave.svg" alt="division" class="wave wave_bottom">
     </section>
-    <div class="container">
-        <h1 class="tit-nov">Enterate de las ultimas novedades de la escuela</h1>
-        <ul class= "slider">
-            <li id="slide1">
-                <img src="imagenes/lamborghini.png"/>
-            </li>
-            <li id="slide2">
-                <img src="imagenes/paisaje.jpg"/>
-            </li>
-            <li id="slide3">
-                <img src="imagenes/graffiti.jpg"/>
-            </li>
-        </ul>
+    <section class="slider">
+        <div class="slider-container container">
+            <img class="slider-arrow" src="imagenes/bx-chevron-left.svg" id="before">
+                <section class="slider-body slider-body-show" data-id="1">
+                    <div class="slider-texts">
+                        <h2 class="subtitle">Nos visita Jon "Maddog" Hall el director ejecutivo de Linux</h2>
+                        <p class="slider-parr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vero eos ratione ipsam soluta illo.</p>
+                    </div>
 
-        <ul class="carr">
-            <li>
-                <a href="#slide1">1</a>
-            </li>
-            <li>
-                <a href="#slide2">2</a>
-            </li>
-            <li>
-                <a href="#slide3">3</a>
-            </li>
+                <figure class="slider-picture">
+                    <img src="imagenes/img1.jpg" alt="slider-img">
+                </figure>
+                </section>
 
-        </ul>
-    </div>
+                <section class="slider-body" data-id="2">
+                    <div class="slider-texts">
+                        <h2 class="subtitle">Proyecto Estadistica 3D</h2>
+                        <p class="slider-text">El plan integral de Educacion digital (PIED) busca integrar los procesos de enseñanza y aprendizaje de las instituciones educativas a la cultura digital</p>
+                    </div>
+    
+                <figure class="slider-picture">
+                    <img src="imagenes/img2.jpg" alt="slider-img">
+                </figure>
+                </section>
+
+                <section class="slider-body" data-id="3">
+                    <div class="slider-texts">
+                        <h2 class="subtitle">Proyectos ET36 en INNOVA</h2>
+                        <p class="slider-text">Mucho trabajo, muchos estudiantes, muchos docentes Felicitaciones a todos ORGULLOSOS</p>
+                    </div>
+    
+                <figure class="slider-picture">
+                    <img src="imagenes/img3.jpg" alt="slider-img">
+                </figure>
+                </section>
+
+
+            <img class="slider-arrow" src="imagenes/bx-chevron-right.svg" id="after">
+        </div>
+    </section>
     <!--<div class="horizontal-padding vertical-padding">
     </div>-->
 </body>
