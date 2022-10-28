@@ -1,3 +1,11 @@
+.tit-novedades{
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 28px;
+    align-items: center;
+}
+
 .container {
     width: 90%;
     min-height: 100vh;
@@ -50,10 +58,10 @@
     line-height: 1.7;
 }
 
-.slider-picture {
-    width: 400px;
+.slider-img {
+    width: 350px;
     height: 230px;
-    border-radius: 50%;
+    border-radius: 40%;    
     object-fit: cover;
     display: block;
     margin: 0 auto
@@ -66,4 +74,26 @@
 
 .slider-arrow:nth-of-type(2){
     justify-self: end;
+}
+
+@media (max-width: 950px){
+
+    .slider-body{
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content 1fr;
+    }
+
+    .slider-picture{
+        grid-row: 1/2;
+
+    }
+    .slider-arrow {
+        width: 100%;
+    }
+
+    .slider-img{
+        width: 200px;
+        height: 200px;
+    }
+
 }
