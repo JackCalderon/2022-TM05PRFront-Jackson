@@ -77,6 +77,18 @@
 }
 
 @media (max-width: 950px){
+    .subtitle {
+        font-size: 1.5rem;
+    }
+
+    .slider-parr {
+        font-size: 18px;
+    }
+
+    .tit-novedades{
+        font-size: 25px;
+    }
+    
 
     .slider-body{
         grid-template-columns: 1fr;

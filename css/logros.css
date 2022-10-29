@@ -1,0 +1,35 @@
+.logros{
+    max-width: 950px;
+    max-height: 100vh;
+    margin: 0 auto;
+}
+
+.tit-prin-logro{
+    display: flex;
+    justify-content: center;
+}
+
+.cont-logros {
+    width: 60%;
+    margin: 20px auto;
+    background-color: rgb(245, 247, 144);
+    padding: 15px;
+
+}
+.tit-second-logro{
+    font-size: 19px;
+}
+
+.descrip-logro {
+}
+
+.izquierda {
+    float: left;
+    margin-right: 15px;
+    width: 7.5rem;
+}
+
+.reset {
+    clear: both;
+}
+
