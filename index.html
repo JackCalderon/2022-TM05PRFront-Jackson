@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="css/information.css">
     <link rel="stylesheet" href="css/carrousel.css">
     <link rel="stylesheet" href="css/logros.css">
+    <link rel="stylesheet" href="css/formulario.css">
     <script defer src="JavaScript/java.js"></script>
     <script defer src="JavaScript/sliders.js"></script>
 
@@ -48,7 +49,7 @@
                 <li><a href="#Ini" class="selected">Inicio</a></li>
                 <li><a href="#Information">Informacion</a></li>
                 <li><a href="#Noved">Novedades</a></li>
-                <li><a href="#trophies">logros</a></li>
+                <li><a href="#trophies">Logros</a></li>
                 <li><a href="#Contact">Contacto</a></li>
             </ul>
         </nav>
@@ -174,7 +175,7 @@
     </section>
     <script src="sliders.js"></script>
 
-    <section class="logros">
+    <section class="logros" id="trophies">
         <h2 class="tit-prin-logro">Logros Escolares</h2>
         <div class="cont-logros">
            <img class="izquierda" src="imagenes/bx-medal.svg">
@@ -193,7 +194,7 @@
              <h3 class="tit-second-logro">Escuela Verde</h3>
             </aside>
             <aside class="descrip-logro">  <!--Se usa como barras laterales-->
-             Se reconocio a la ET N36 D.E 15 como Escuela Verde en el Lazo Ambiental-La escuela se consagro en la Etapa 1
+             Se reconocio a la ET N36 D.E 15 como Escuela Verde en el Lazo Ambiental-La escuela se consagro en la Etapa 1. Siempre presentes en las propuestas medioambientales.
             </aside>
          </div>
          <div class="reset"></div>
@@ -220,6 +221,36 @@
          </div>
          <div class="reset"></div>
         
+    </section>
+
+    <section class="formulario" id="Contact">
+        <h2 class="tit-prin-form">¿Queres ser parte del futuro?</h2>
+        <h3 class="tit-sec-form">Contactate con nosotros</h3>
+        <div class="cont-preview-form">
+            <img class="esc-logo-form" src="imagenes/logo.png">
+            <p class="tit-prin-form">Formulario Escuela Tecnica 36 DE 15</p>
+        </div>
+        <form class="container-form">
+            <div class="form-group">
+                <input required type="text" name ="nombre" id ="nombre" placeholder="Ingrese su Nombre">
+            </div>
+
+            <div class="form-group">
+                <input required type="text" name ="apellido" id ="apellido" placeholder="Ingrese su Apellido">
+            </div>
+
+            <div class="form-group">
+                <input required type="email" name = "correo" id="correo" placeholder="Ingrese su correo">
+            </div>
+
+            <div class="form-group">
+                <textarea required  name="message" id="message" rows="6" placeholder="Ingrese su Mensaje"></textarea>
+            </div>
+
+            <button type="submit" class="form-submit">Enviar</button>
+        </form>
+
+
     </section>
     <!--<div class="horizontal-padding vertical-padding">
     </div>-->
