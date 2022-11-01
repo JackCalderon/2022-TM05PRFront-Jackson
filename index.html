@@ -220,35 +220,31 @@
         
     </section>
 
-    <section class="formulario" id="Contact">
-        <h2 class="tit-prin-form">¿Queres ser parte del futuro?</h2>
-        <h3 class="tit-sec-form">Contactate con nosotros</h3>
-        <div class="cont-preview-form">
-            <img class="esc-logo-form" src="imagenes/logo.png">
-            <p class="tit-prin-form">Formulario Escuela Tecnica 36 DE 15</p>
+    <section class="formulario" id="#Contact">
+        <h2 class="tit-presen-n1">¿Queres ser parte del futuro?</h2>
+        <h3 class="tit-presen-n2">Contactate con Nosotros</h3>
+        <div class="form-register">
+            <form action="base.php" method="post">
+                <div class="logo-form">
+                    <img height= "70" width = "70" src="imagenes/logo.png" />
+                    <div>
+                        Formulario Escuela Tecnica 36 DE 15 <br />
+                    </div>
+                </div>
+                <div class="campos-form">
+                    <input required class = "controls"type="text" name = "name" id ="name" placeholder="Ingrese su Nombre">
+                    <input required class = "controls" type="text" name = "ape" id="ape" placeholder="Ingrese su Apellido">
+                    <input required class = "controls" type="text" name = "asunto" id="asunto" placeholder="Ingrese el Asunto">
+                    <input required class = "controls" type="email" name = "mail" id="mail" placeholder="Ingrese su Correo">
+                    <textarea require class="controls" name="message" id="message" rows="6" placeholder="Ingrese su Mensaje"></textarea>
+                    <button class = "botons" type="submit">Enviar</button>
+                </div>
+            </form>
+
         </div>
-        <form class="container-form">
-            <div class="form-group">
-                <input required type="text" name ="nombre" id ="nombre" placeholder="Ingrese su Nombre">
-            </div>
-
-            <div class="form-group">
-                <input required type="text" name ="apellido" id ="apellido" placeholder="Ingrese su Apellido">
-            </div>
-
-            <div class="form-group">
-                <input required type="email" name = "correo" id="correo" placeholder="Ingrese su correo">
-            </div>
-
-            <div class="form-group">
-                <textarea required  name="message" id="message" rows="6" placeholder="Ingrese su Mensaje"></textarea>
-            </div>
-
-            <button type="submit" class="form-submit">Enviar</button>
-        </form>
+</section>
 
 
-    </section>
-
+    
 </body>
 </html>

@@ -1,0 +1,19 @@
+PHP BASE MAIL
+<?php
+
+$destinatario = 'calderonjackson05@gmail.com';
+
+$name = $_POST['name'];
+$ape = $_POST['ape'];
+$asunto = $_POST['asunto'];
+$mail = $_POST['mail'];
+$message = $_POST['message'];
+
+$header = "Enviado desde la Pagina de la Escuela Tecnica 36";
+$mensajecompleto = $mensaje . "\nAtentamente: " . $name;
+
+mail($destinatario, $asunto, $mensajecompleto, $header);
+echo "<script>alert('Correo Enviado Exitosamente')</script>";
+echo "<script> setTimeout(\"location.href='index.html'\",1000)</script>";
+
+?>
