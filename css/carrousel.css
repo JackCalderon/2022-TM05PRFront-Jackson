@@ -15,7 +15,7 @@
 }
 
 .slider {
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     padding: 40px 0;
 }
 
@@ -32,7 +32,7 @@
     opacity: 0;
     pointer-events: none;
     display: grid;
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     grid-template-columns: 1fr max-content;
     align-items: center;
     transition: opacity 1.5s;
@@ -78,7 +78,9 @@
 
 @media (max-width: 950px){
     .subtitle {
+        display: flex;
         font-size: 1.5rem;
+        justify-content: center;
     }
 
     .slider-parr {
@@ -97,6 +99,7 @@
 
     .slider-picture{
         grid-row: 1/2;
+        margin-bottom: 15px;
 
     }
     .slider-arrow {

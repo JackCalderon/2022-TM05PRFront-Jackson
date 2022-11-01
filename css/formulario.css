@@ -67,6 +67,10 @@
    font-size: 15px;
 }
 
+/*::-webkit-scrollbar {
+   display: none;
+}*/
+
 @media (max-width: 950px){
    .form-register {
        width: 400px;

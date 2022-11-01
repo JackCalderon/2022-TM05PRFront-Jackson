@@ -31,41 +31,11 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-
 @media (max-width: 950px){
+    .cont-logros {
+        width: 20rem;
+    }
 
-    .tit-second-logro{
-        font-size: 17px;
-    }
-    
-    .descrip-logro {
-        text-align: left;
-        font-size: 15px;
-    }
     
 
-    .izquierda {
-        margin-right: 16px;
-    }
-
-
-
-} */
+}

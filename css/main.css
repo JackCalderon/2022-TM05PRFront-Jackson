@@ -8,6 +8,14 @@
      --menu-mobileback-color: #6c6e75;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+section [id] {
+    scroll-margin-top: 70px;
+}
+
 body{
     font-family: 'Source Sans Pro', sans-serif;
     background-color: var(--theme-color); /*Ventajas si queremos cambiar algo lo hacemos directamente en el root*/
