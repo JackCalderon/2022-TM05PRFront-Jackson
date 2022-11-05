@@ -45,9 +45,11 @@ Para añadir pequeños detalles y animaciones en la pagina, ademas de utilizar J
 **PseudoElemento Animacion Navbar**
 ![Animacion Navbar](pseudoelements.png)
 
-**JavaScript Transicciones**
-![Transicciones](javamenu.png)  
-![Herramienta-Utilizada](javamenu2.png)
+**JavaScript Transiccion Open Menu**
+![Transiccion OM](javamenu.png)  
+
+**JavaScript Transiccion Close Menu**
+![Transiccion CM](balsamiqwire.png)
 
 
 
