@@ -12,6 +12,17 @@ La escuela si bien tiene las redes sociales como lo son Instagram o Facebook, en
 
 ##### Lista de Requerimientos
 1. Respetar que la pagina web cumpla con el **Responsive** (Adaptación a las resoluciones de pantalla). 
-\ color {green} {Tarea Lograda}
+\textcolor{green}{Tarea Lograda}
+2. Realizar Navbar y diseñar la visualización de la sección Inicio. 
+\textcolor{green}{Tarea Lograda}
+3. Diseñar la visualización de la sección Información, Lograr el recorrido de la escuela mediante la técnica de Zigzag.
+\textcolor{green}{Tarea Lograda}
+4. Hacer que el Slider muestre correctamente cada una de las distintas diapositivas y que cambien al tocar las flechas laterales.
+\textcolor{green}{Tarea Lograda}
+5. Lograr que se muestren correctamente los recuadros y que el texto descriptivo se mantenga justificado de manera correcta.
+\textcolor{green}{Tarea Lograda}
+6. Lograr que después de llenar el formulario se envíe a algún mail.
+\textcolor{red}{No pude cumplir con este requisito debido a que, a la hora de enlazar el formulario con mi email, PHP detectaba errores y pese a que busque alguna}
+
 
 ![Herramienta-Utilizada](balsamiqwire.png)
