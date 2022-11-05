@@ -4,5 +4,10 @@
 ####  Proyecto Informático II
 #### Buenos Aires, Argentina
 
-##### I.Introduccion
+##### Descripcion del proyecto
+Es una pagina orientada especialmente a la Escuela, donde las personas se podran sentir mas cercanas a la institucion teniendo las ultimas novedades a su alcance.
+
+##### ¿Como surge la idea/necesidad del proyecto?
 La escuela si bien tiene las redes sociales como lo son Instagram o Facebook, en donde publican las novedades para que las personas puedan estar informadas, propongo desarrollar una pagina web propia de la escuela, con el mismo objetivo, mantener a las personas informadas y que aquellas familias que quieran sumarse a la escuela puedan tener una presentación más formal al establecimiento. 
+
+![Herramienta-Utilizada](balsamiqwire.png)
