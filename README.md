@@ -1,4 +1,5 @@
-# 2022-TMPRFront-Jackson Calderon
-Proyecto FrontEnd 5°3 
-
-## Pagina Web de la Escuela
+# Pagina Web de la Escuela
+## Jackson Calderon
+### ET 36 DE 15 “Alte Guillermo Brown”
+### Proyecto Informático II
+### Buenos Aires, Argentina
