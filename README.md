@@ -34,7 +34,7 @@ No pude cumplir con este requisito debido a que, a la hora de enlazar el formula
 ##### ¿Como se armo el proyecto?
 Lo primero que realice fue el boceto de mi pagina en la herramienta “Balsamiq Wireframes”, esto me permitió plasmar la idea que tenia en mi mente en un lugar que me ayudaría a que la misma tome forma, de esta manera si se me ocurría una nueva idea podía modificarlo y tenerlo listo para que yo pueda guiarme del boceto.
 
-![Herramienta-Utilizada](balsamiqwire.png)
+![Herramienta-Utilizada](imagenes/balsamiqwire.png)
 
 Luego de realizar este paso investigué maneras de lograr la idea que yo quería llevar a cabo y me encontré con cursos/videos que se asemejaban bastante al objetivo final, entre ellos noté que había distintas maneras de lograrlo una de ellas fue usar FlexBox que es un modulo de diseño de CSS que se encarga de facilitar el posicionamiento de los elementos reduciendo la cantidad de código, en pocas palabras, FlexBox es la capacidad de poder alterar, el ancho, alto y posicionamiento de los elementos de manera sencilla y tomando en cuenta el espacio con el que contamos.
 
