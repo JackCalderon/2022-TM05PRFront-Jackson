@@ -49,13 +49,15 @@ Debido a que la pagina ya se encuentra subida a el repositorio de github, lo uni
 Los principales problemas del proyecto fueron la sobreposicion de los elementos y seguir el formato Responsive, estos inconvenientes los supe corregir mirando nuevamente los videos o el codigo y visitando foros de consulta como lo es StackOverflow, un ejemplo es cuando las imagenes se sobreponian encima del navbar, para solucionarlo consulte al foro y di con que el error era que no agregue un z-index y por ello no lograba conseguir el resultado ideal.
 
 ##### Pensando a Futuro
-Una cosa a corregir es con respecto al responsive, ya que entre la seccion Logros y Contacto nunca pude entender porque se sobreponen esas secciones si bien la pagina quedo muy bien, tener ese pequeño conflicto es como una espina y sin duda si se corrige le sumaria un plus bastante grande.
+Una cosa a corregir es con respecto al responsive, ya que entre la seccion Logros y Contacto nunca pude entender porque se sobreponen esas secciones, si bien la pagina quedo muy bien, tener ese pequeño conflicto es como una espina y sin duda si se corrige le sumaria un plus bastante grande.
 
 Con respecto a las cosas a mejorar/agregar seria poder lanzar la pagina a Google y que las personas puedan observar el trabajo realizado, tambien poder lograr enlazar mi email con el formulario de esta manera estaria cumpliendo con todos los objetivos planteados y por ultimo seria mejorar en algunas partes el diseño, si bien me gusto como quedo la pagina en su resolucion basica(Computadora) sin duda creo que para los otros dispositivos se le puede dar otro enfoque mas llamativo.
 
 ##### Conclusiones
+Este proyecto me sirvio para poder aumentar mi grado de desempeño y responsabilidad; cada experencia de trabajo me ayuda mucho, ya que reafirmo mi aprendizaje sobre los temas trabajados, Organizando mi tiempo, por donde debo empezar, cual es el camino mas optimo para llegar a la meta propuesta. Existen muchos tipos de variables a la hora de realizar un proyecto y cada una de ellas es fundamental. Por ello realizar proyectos siempre es un nuevo desafio para afrontar y seguir aprendiendo.
 
 ##### Referencias/Links
+**N1**[Yoelvis Mulen,(12/04/2021) Pagina Web Responsive desde Cero](https://www.youtube.com/watch?v=ADbxRybIpH0&t=2488s)
 
 
 
