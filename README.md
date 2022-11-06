@@ -58,10 +58,20 @@ Este proyecto me sirvio para poder aumentar mi grado de desempeño y responsabil
 
 ##### Referencias/Links
 **N1** [Yoelvis Mulen,(12/04/2021) Pagina Web Responsive desde Cero](https://www.youtube.com/watch?v=ADbxRybIpH0&t=2488s)
+
+
 **N2** [Yoelvis Mulen,(18/04/2021) PseudoElementos Before y After](https://www.youtube.com/watch?v=qa4oWn3Zvpk&list=PL9T-KKyKXNClKYVq2vwjIXzn9wyNs3XtC&index=2)
+
+
 **N3** [Yoelvis Mulen,(03/05/2021) Maquetando usando Mobile First](https://www.youtube.com/watch?v=ZOC7BjMDfq0&t=1951s)
+
+
 **N4** [Yoelvis Mulen,(10/05/2021) Tecnica ZigZag con CSS Grid](https://www.youtube.com/watch?v=xXyvlgjpQJo)
+
+
 **N5** [AlexCG Design,(20/08/2021) Crear un Slider](https://www.youtube.com/watch?v=F7Mi1c3DFBs)
+
+
 **N6** [Yoelvis Mulen,(26/05/2021) Enlazar Navbar con el Contenido](https://www.youtube.com/watch?v=e14LvRFfjTg&t=1044s)
 
 
