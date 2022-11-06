@@ -40,16 +40,19 @@ Luego de realizar este paso investigué maneras de lograr la idea que yo quería
 
 Ademas de CSS Flexbox, encontre otra manera de elaborar algunas secciones de mi pagina, asi es estoy hablando de CSS Grid, que es un sistema de diseño que divide la pagina en una cuadricula, en la cual podremos posicionar los elementos que queramos de manera coherente y haciendo que los mismos tomen forma.
 
-Para añadir pequeños detalles y animaciones en la pagina, ademas de utilizar JavaScript el cual me permitio realizar algunas transicciones, utilize los PseudoElementos que son los encargados de añadir estilos a una parte especifica de la pagina.
+Para añadir pequeños detalles y animaciones en la pagina, ademas de utilizar JavaScript el cual me permitio realizar akgunas transicciones, utilize los PseudoElementos que son los encargados de añadir estilos a una parte especifica de la pagina.
 
-**PseudoElemento Animacion Navbar**
-![Animacion Navbar](pseudoelements.png)
+##### ¿Que se necesita para probar el proyecto?
+Debido a que la pagina ya se encuentra subida a el repositorio de github, lo unico que tendras que hacer es copiar el link que te proporciona git y ejecutar el comando git clone en tu computadora, luego de eso dirigite a la carpeta clonada en este caso 2022-TMPRFront-Jackson y abre el archivo index, eso te llevara directamente a la pagina web, en el caso de que quieras ver el codigo tendras que tener instalado en tu computadora el programa Visual Studio Code u otro programa que te permita visualizar el trabajo realizado.
 
-**JavaScript Transiccion Open Menu**
-![Transiccion OM](javamenu.png)  
+##### Seguimiento
 
-**JavaScript Transiccion Close Menu**
-![Transiccion CM](balsamiqwire.png)
+##### Pensando a Futuro
+
+##### Conclusiones
+
+##### Referencias/Links
+
 
 
 
