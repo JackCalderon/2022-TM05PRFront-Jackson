@@ -74,6 +74,8 @@ Este proyecto me sirvio para poder aumentar mi grado de desempeño y responsabil
 
 **N6** [Yoelvis Mulen,(26/05/2021) Enlazar Navbar con el Contenido](https://www.youtube.com/watch?v=e14LvRFfjTg&t=1044s)
 
+![Imagen-Escuela](imagenes/logo.png)
+
 
 
 
