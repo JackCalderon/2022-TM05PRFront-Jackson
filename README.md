@@ -5,7 +5,7 @@
 #### Buenos Aires, Argentina
 
 ##### Descripcion del proyecto
-Es una pagina orientada especialmente a la Escuela, donde las personas se podran sentir mas cercanas a la institucion teniendo las ultimas novedades a su alcance.
+Es una pagina centrada en la Escuela, donde las personas se podran sentir mas cercanas a la institucion teniendo las ultimas novedades a su alcance.
 
 ##### ¿Como surge la idea/necesidad del proyecto?
 La escuela si bien tiene las redes sociales como lo son Instagram o Facebook, en donde publican las novedades para que las personas puedan estar informadas, propongo desarrollar una pagina web propia de la escuela, con el mismo objetivo, mantener a las personas informadas y que aquellas familias que quieran sumarse a la escuela puedan tener una presentación más formal al establecimiento. 
@@ -45,9 +45,13 @@ Para añadir pequeños detalles y animaciones en la pagina, ademas de utilizar J
 ##### ¿Que se necesita para probar el proyecto?
 Debido a que la pagina ya se encuentra subida a el repositorio de github, lo unico que tendras que hacer es copiar el link que te proporciona git y ejecutar el comando git clone en tu computadora, luego de eso dirigite a la carpeta clonada en este caso 2022-TMPRFront-Jackson y abre el archivo index, eso te llevara directamente a la pagina web, en el caso de que quieras ver el codigo tendras que tener instalado en tu computadora el programa Visual Studio Code u otro programa que te permita visualizar el trabajo realizado.
 
-##### Seguimiento
+##### Seguimiento/Control
+Los principales problemas del proyecto fueron la sobreposicion de los elementos y seguir el formato Responsive, estos inconvenientes los supe corregir mirando nuevamente los videos o el codigo y visitando foros de consulta como lo es StackOverflow, un ejemplo es cuando las imagenes se sobreponian encima del navbar, para solucionarlo consulte al foro y di con que el error era que no agregue un z-index y por ello no lograba conseguir el resultado ideal.
 
 ##### Pensando a Futuro
+Una cosa a corregir es con respecto al responsive, ya que entre la seccion Logros y Contacto nunca pude entender porque se sobreponen esas secciones si bien la pagina quedo muy bien, tener ese pequeño conflicto es como una espina y sin duda si se corrige le sumaria un plus bastante grande.
+
+Con respecto a las cosas a mejorar/agregar seria poder lanzar la pagina a Google y que las personas puedan observar el trabajo realizado, tambien poder lograr enlazar mi email con el formulario de esta manera estaria cumpliendo con todos los objetivos planteados y por ultimo seria mejorar en algunas partes el diseño, si bien me gusto como quedo la pagina en su resolucion basica(Computadora) sin duda creo que para los otros dispositivos se le puede dar otro enfoque mas llamativo.
 
 ##### Conclusiones
 
