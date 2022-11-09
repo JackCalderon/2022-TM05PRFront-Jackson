@@ -13,7 +13,7 @@
    border-radius: 4px;
    font-family: 'calibri';
    color: white;
-   box-shadow: 7px 13px 37px #000;
+   box-shadow: 7px 13px 37px rgb(108, 193, 233);
 }
 
 .logo-form{
